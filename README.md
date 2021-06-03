@@ -23,3 +23,12 @@ The execution of the above task was conducted in python. Some alternate routes w
 
 For the extra specifications, you can find the "mlda_task_extra.py" file which has the function to be called for bidirectional RRT*, which I found to be the best RRT upgrade implementing the random but optimised tree from both the root node and the target node thus ensuring a faster pace of path planning. The work on the paint based GUI for drawing the obstacles is still ongoing and the repo will be updated with the same once done.
 
+To start off, clone the repository:
+```shell
+    git clone https://github.com/PrithvirajRay/RRTandBiRRT.git
+    ```
+
+Continue by launching the task solution file for the RRT algorithm:
+```shell
+    roslaunch mlda_task_solution.launch
+    ```
