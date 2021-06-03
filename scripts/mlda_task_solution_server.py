@@ -4,7 +4,7 @@ import rospy
 from pp_msgs.srv import PathPlanningPlugin, PathPlanningPluginResponse
 from geometry_msgs.msg import Twist
 from treeviz import TreeViz
-from unit4_exercise_solution import rrt
+from mlda_task_solution import rrt
 
 def make_plan(req):
   ''' 
